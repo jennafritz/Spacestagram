@@ -22,9 +22,12 @@ function App() {
     <Container className="homePageContainer">
       <Row id="spacestagram" as="h1">Spacestagram</Row>
       <Row as="h3">Solar-Powered by NASA's Astronomy Picture of the Day (APOD) API</Row>
-      {imagesArray.map(image => (
+      { imagesArray.length > 0 
+      ? imagesArray.map(image => (
         <ImageComponent imageData={image} />
-      ))}
+      ))
+      : <img id="loadingGif" src="https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif" />
+      }
     </Container>
   )
 }

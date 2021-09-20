@@ -59,3 +59,8 @@ button.btn:focus {
   font-weight: bolder;
   font-size: 6rem;
 }
+
+#loadingGif {
+  margin-top: 4rem;
+  height: 4rem;
+}
