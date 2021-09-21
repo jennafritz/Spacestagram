@@ -2,7 +2,7 @@
 
 > A Instagram-inspired, space-themed image display app that pulls data from NASA's Astronomy Picture of the Day (APOD) API
 
-> Live demo [_here_](https://www.example.com). If you have the project hosted somewhere, include the link here.
+> Live demo [_here_](https://spacestagram-jf.netlify.app/).
 
 ## Table of Contents
 
