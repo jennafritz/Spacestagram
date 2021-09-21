@@ -1,8 +1,7 @@
 import React, { useState } from "react"
 import Card from "react-bootstrap/Card"
 import Button from 'react-bootstrap/Button'
-import Accordion from 'react-bootstrap/Accordion'
-import { Container, Image } from "react-bootstrap"
+import Image from "react-bootstrap/Image"
 
 export default function ImageComponent({imageData}) {
 

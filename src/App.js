@@ -26,7 +26,7 @@ function App() {
       ? imagesArray.map(image => (
         <ImageComponent imageData={image} />
       ))
-      : <img id="loadingGif" src="https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif" />
+      : <img id="loadingGif" src="https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif" alt="loading"/>
       }
     </Container>
   )
